@@ -24,6 +24,8 @@ def main():
     # Set initial score to zero
     score = 0
     for i in range(NUM_ROUNDS):
+        # Display round number
+        print(f"Round {i + 1}")
     
         # Create and assign random numbers to computer and user
         comp_num = random.randint(1, 100)
